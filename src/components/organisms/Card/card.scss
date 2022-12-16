@@ -1,0 +1,23 @@
+.movie {
+	width:152px;
+	float:left;
+	margin-right: 11px;
+}
+.movie-image {
+	float:left;
+	width:152px;
+	height:214px;
+	position:relative;
+}
+.movie-image img {
+	width:152px;
+	height:214px;
+}
+.movie-image a {
+	float:left;
+	display:inline;
+	width:152px;
+	height:214px;
+	position:relative;
+	z-index:2;
+}

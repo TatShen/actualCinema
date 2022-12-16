@@ -1,1 +1,1 @@
-# actualCinema
+# mentoring-simple-webpack-starter
