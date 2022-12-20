@@ -5,7 +5,7 @@ import { appEvents } from "../../../constants/appEvents";
 import { FormManager } from "../../../core/FormManager/FormManager";
 import { storageService } from "../../../services/Storage";
 import { databaseService } from "../../../services/Database";
-import { appGeners } from "../../../constants/appGeners";
+import { appGenres } from "../../../constants/appGenres";
 
 export class AdminPage extends Component {
   constructor() {
@@ -74,9 +74,9 @@ export class AdminPage extends Component {
             <div class="mb-3">
               <label class="form-label">Chose a genre</label>
               <select class="form-select" name="genre">
-                ${appGeners.map((item) => {
-                  return `<option value="${item.value}">${item.label}</option>`
-                })}
+              ${appGenres.map((item) => {
+                return `<option value="${item.value}">${item.label}</option>`
+              }).join(' ')}
               </select>
             </div>
             <div class="mb-3">
