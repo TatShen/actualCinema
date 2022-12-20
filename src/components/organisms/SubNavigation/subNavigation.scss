@@ -21,9 +21,10 @@
   line-height: 24px;
   text-decoration: none;
   text-transform: uppercase;
-  
+  &.active {
+    color: #d91d2a;
+  }
 }
-
 
 .sub-navigation ul li a:hover {
   text-decoration: underline;
